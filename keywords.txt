@@ -1,0 +1,31 @@
+#######################################
+# Syntax Coloring Map For Mpu6050
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Mpu6050	KEYWORD1
+Mpu6050Data	KEYWORD1
+Vector3f	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+init	KEYWORD2
+reset	KEYWORD2
+isConnected	KEYWORD2
+readData	KEYWORD2
+readAcceleration	KEYWORD2
+readGyroscope	KEYWORD2
+readTemperature	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
