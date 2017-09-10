@@ -34,7 +34,7 @@ Copy the [Simple-MPU6050-Arduino](https://github.com/Th-Havy/Simple-MPU6050-Ardu
 
 ### Running an example
 
-Restart the arduino IDE and select an example: File > Examples > Mpu6050.
+Restart the arduino IDE and select an example: File > Examples > Simple-MPU6050-Arduino.
 
 ## Authors
 
