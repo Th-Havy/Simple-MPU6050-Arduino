@@ -1,5 +1,5 @@
 # Simple-MPU6050-Arduino
-Simple Arduino library for using the MPU6050 accelerometer &amp; gyroscope sensor from invensense. It allows to easily read the acceleration, gyroscope (angular speed) and temperature measurements directly as a float value in physical units.
+This is a simple Arduino library for using the MPU6050 accelerometer &amp; gyroscope sensor from invensense. It allows to easily read the acceleration, gyroscope (angular speed) and temperature measurements directly as a float value in physical units.
 
 ## Features
 
@@ -30,15 +30,11 @@ You will first need to install the Arduino IDE if you haven't already, and of co
 
 ### Installing
 
-Copy the [Simple-MPU6050-Arduino](https://github.com/Th-Havy/Simple-MPU6050-Arduino) folder to your Arduino libraries folder (located where you installed the Arduino IDE, for ex:C:\Program Files (x86)\Arduino\libraries).
+Copy the [Simple-MPU6050-Arduino](https://github.com/Th-Havy/Simple-MPU6050-Arduino) folder to your Arduino libraries folder (located where you installed the Arduino IDE, for ex: C:\Program Files (x86)\Arduino\libraries).
 
 ### Running an example
 
 Restart the arduino IDE and select an example: File > Examples > Mpu6050.
-
-## Built With
-
-* [Arduino IDE](https://www.arduino.cc/en/main/software) - The Arduino IDE
 
 ## Authors
 
