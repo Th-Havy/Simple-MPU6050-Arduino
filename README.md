@@ -32,6 +32,18 @@ You will first need to install the Arduino IDE if you haven't already, and of co
 
 Copy the [Simple-MPU6050-Arduino](https://github.com/Th-Havy/Simple-MPU6050-Arduino) folder to your Arduino libraries folder (located where you installed the Arduino IDE, for ex: C:\Program Files (x86)\Arduino\libraries).
 
+### Schematic
+
+Connect the GY-521 board (or any equivalent MPU6050 powered board) to your Arduino board as follows:
+Arduino | MPU6050 board
+3.3V | Vcc
+GND | GND
+SCL | A5
+SDA | A4
+Note that the MPU6050 chip itself is not 5V tolerant, but some board like the GY-521 include a voltage converter to be able to connect it to 5V. If you don't know which voltage to choose it's safer to use 3.3V in order not to destroy the sensor.
+
+![basic ciruit image](circuit.png)
+
 ### Running an example
 
 Restart the arduino IDE and select an example: File > Examples > Simple-MPU6050-Arduino.
