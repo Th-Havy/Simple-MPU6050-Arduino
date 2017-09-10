@@ -1,5 +1,7 @@
 # Simple-MPU6050-Arduino
-Simple Arduino library for using the MPU6050 accelerometer &amp; gyroscope sensor from invensense
+Simple Arduino library for using the MPU6050 accelerometer &amp; gyroscope sensor from invensense. It allows to easily read the acceleration, gyroscope (angular speed) and temperature measurements directly as a float value in physical units.
+
+## Features
 
 This library is meant as a starting base when using the MPU6050 sensor. It is meant to be simple and easy to use, as part of an arduino project. In particular, the library does not implement or make use of all the features of the chip (such as the FIFO buffer, Digital Motion Processor), and the code is not optimized for any board. 
 
@@ -21,3 +23,32 @@ Here's a list of some features NOT supported (on purpose):
 - Interrupts
 - FIFO buffer
 - Digital Motion Processor (DMP)
+
+## Getting Started
+
+You will first need to install the Arduino IDE if you haven't already, and of course you will need a MPU6050 (for example, the GY-521 board that is a minimal board for this sensor can be bought for 2-3$).
+
+### Installing
+
+Copy the [Simple-MPU6050-Arduino](https://github.com/Th-Havy/Simple-MPU6050-Arduino) folder to your Arduino libraries folder (located where you installed the Arduino IDE, for ex:C:\Program Files (x86)\Arduino\libraries).
+
+### Running an example
+
+Restart the arduino IDE and select an example: File > Examples > Mpu6050.
+
+## Built With
+
+* [Arduino IDE](https://www.arduino.cc/en/main/software) - The Arduino IDE
+
+## Authors
+
+* **Thomas Havy**
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+## Acknowledgments
+
+* The invensense datasheet for the MPU6050 is useful if you wish to understand the implementation of the methods. Here is the [Datasheet](https://www.invensense.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf) and even more importantly the [Register Map](https://www.invensense.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf).
+* If you want a more in-depth use of the MPU6050 you can use Jeff Rowberg's [library](https://github.com/jrowberg/i2cdevlib/tree/master/Arduino/MPU6050) which is much more advanced.
